@@ -1,0 +1,45 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 4rem 0;
+}
+
+.setup{
+  border: solid red;
+}
+
+.head{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainCont{
+  display: flex;
+}
+
+.title{
+  font-size: xx-large;
+  border: solid blue;
+  width: auto;
+  height: 60px;
+}
+
+.inputField{
+  margin-inline: 20px;
+  height: 30px;
+  width: 100vh;
+  border-radius: 5px;
+  font-size: larger;
+  border:solid black 1px;
+}
+
+.logo{
+  border: solid pink;
+  width: 60px;
+  height: 60px;
+}
