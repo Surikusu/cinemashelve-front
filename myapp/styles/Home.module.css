@@ -7,11 +7,10 @@
   padding: 4rem 0;
 }
 
-.setup{
-  border: solid red;
-}
+
 
 .head{
+  background-color:#442220 ;
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -20,6 +19,11 @@
 
 .mainCont{
   display: flex;
+  flex-wrap: wrap;
+  border: solid #809848;
+  box-sizing: border-box;
+  justify-content: center;
+  background-color: #B0CA87;
 }
 
 .title{
@@ -27,12 +31,13 @@
   border: solid blue;
   width: auto;
   height: 60px;
+  margin-left: 20px;
 }
 
 .inputField{
   margin-inline: 20px;
   height: 30px;
-  width: 100vh;
+  width: 50vh;
   border-radius: 5px;
   font-size: larger;
   border:solid black 1px;
@@ -42,4 +47,5 @@
   border: solid pink;
   width: 60px;
   height: 60px;
+  margin-right: 20px;
 }
