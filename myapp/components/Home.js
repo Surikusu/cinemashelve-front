@@ -31,9 +31,9 @@ function Home() {
       </header>
 
       <main className={styles.mainCont}>
-        {films.map((film, index) => (
+        {/* {films.map((film, index) => (
           <FilmPoster key={index} title={film.title} />
-        ))}
+        ))} */}
 
         {films.map((film, index) => (
           <Film

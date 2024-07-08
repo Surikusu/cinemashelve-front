@@ -4,8 +4,8 @@ function Film(prop){
     return(
     <div className={styles.filmCont}>
         <div></div>
-        <div> {prop.title} </div>
-        <div> {prop.duration} </div>
+        <div className={styles.title}> {prop.title} </div>
+        <div className={styles.duration}> {prop.duration} </div>
     </div>
     )
 }
